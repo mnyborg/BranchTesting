@@ -8,6 +8,10 @@ public class Dog extends Animal {
 
     void mood(boolean mood) {
         if (mood) System.out.println("Logre");
-        else System.out.println("Knurrer");
+        else System.out.println("Knurre");
+    }
+
+    void jump(double dist) {
+        System.out.println(dist);
     }
 }
