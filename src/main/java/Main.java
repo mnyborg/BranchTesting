@@ -7,5 +7,8 @@ public class Main {
 
         c.eat("Fish");
         d.eat("DogFood");
+
+        c.mood(true);
+        d.mood(false);
     }
 }
