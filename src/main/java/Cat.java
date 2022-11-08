@@ -5,4 +5,9 @@ public class Cat extends Animal {
     boolean eat(String s) {
         return true;
     }
+
+    void mood(boolean mood) {
+        if (mood) System.out.println("Spinder");
+        else System.out.println("Hvæser");
+    }
 }
