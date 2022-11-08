@@ -10,4 +10,8 @@ public class Cat extends Animal {
         if (mood) System.out.println("Spinder");
         else System.out.println("Hvæser");
     }
+
+    void jump(double dist) {
+        System.out.println(dist);
+    }
 }

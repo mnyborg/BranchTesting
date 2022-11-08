@@ -3,4 +3,5 @@ public abstract class Animal {
     abstract void makeSound();
 
     abstract void mood(boolean mood);
+    abstract void jump(double dist);
 }
