@@ -10,5 +10,7 @@ public class Main {
 
         c.mood(true);
         d.mood(false);
+
+        System.out.println("Stash");
     }
 }
